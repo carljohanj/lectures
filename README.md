@@ -55,11 +55,13 @@ Sourcemappen innehåller:
 
 ## <a id="videor"></a>Videoklipp
 - **The Secret Rules of Modern Living Algorithms** (58 min)<br>
-[<img src="https://raw.githubusercontent.com/carljohanj/recursive_lectures/master/assets/thumbnail_1.png" alt="The Secret Rules of Modern Algorithms" width="500"/>](https://www.youtube.com/watch?v=kiFfp-HAu64)
+[<img src="/assets/thumbnail_1.png" alt="The Secret Rules of Modern Algorithms" width="500"/>](https://www.youtube.com/watch?v=kiFfp-HAu64)
 - **Stepping through Recursive Fibonacci** (8 min)<br>
 [<img src="https://img.youtube.com/vi/zg-ddPbzcKM/hqdefault.jpg" alt="Stepping through recursive fibonacci" width="500"/>](https://www.youtube.com/watch?v=zg-ddPbzcKM)
 - **The magic of fibonacci numbers** (6 min)<br>
 [<img src="https://img.youtube.com/vi/SjSHVDfXHQ4/hqdefault.jpg" alt="The magic of fibonacci numbers" width="500"/>](https://www.youtube.com/watch?v=SjSHVDfXHQ4)
+- **Java Generics Explained** (13 min)<br>
+[<img src="https://img.youtube.com/vi/CN27X68YO4I/hqdefault.jpg" alt="Java Generics Explained" width="500"/>](https://www.youtube.com/watch?v=CN27X68YO4I)
 - **Fibonacci numbers and plants** (3 delar x 6 min - se alla)<br>
 [<img src="https://img.youtube.com/vi/ahXIMUkSXX0/hqdefault.jpg" alt="Doodling in math" width="500"/>](https://www.youtube.com/watch?v=ahXIMUkSXX0)
 - **David Brailsford om loopar och rekursion** (12 min)<br>
