@@ -52,6 +52,7 @@ Sourcemappen innehåller:
 - **Abstrakta datatyper**: https://www.geeksforgeeks.org/abstract-data-types/
 - **The importance of Naive Solutions**: https://softwaredoug.com/blog/2022/11/14/importance-of-naive-solutions
 - **Boktips: Gödel, Escher, Bach.** https://sv.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach
+- **Bra ställe att dumpa länkar och anteckningar:** https://keep.google.com/
 
 ## <a id="videor"></a>Videoklipp
 - **The Secret Rules of Modern Living Algorithms** (58 min)<br>
