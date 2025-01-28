@@ -1,0 +1,120 @@
+@font-face{
+    font-family: 'Roboto';
+    src: url(Roboto/Roboto-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'JetBrains';
+    src: url(JetBrains/JetBrainsMono-Regular.ttf);
+    src: url(JetBrains/JetBrainsMono-SemiBold.ttf);
+}
+
+html{
+    font-size: clamp(14px, 1.5vw, 16px);
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Roboto;
+    font-weight: 400;
+    background-color: #282c34;
+    background-image: url(spiral.png);
+    background-position: 0.1rem 0.2rem;
+    background-repeat: no-repeat;
+    background-size: 18rem;
+}
+
+main{
+    display: flex;
+    width: 100%;
+}
+
+h2{
+    color: white;
+    font-weight: bold;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
+
+#Method{
+    font-family: 'JetBrains';
+    font-size: 90%;
+    margin-top: 12rem;
+    color: #e4b962;
+    line-height: 1.2rem;
+    width: 21rem;
+    margin-left: 1rem;
+}
+
+#Method h2{
+    color: #e4b962;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: -0.5rem;
+}
+
+.right-section-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0rem;
+    flex-grow: 1;
+    justify-content: space-between;
+    height: 100%;
+    width: 51rem;
+    padding-bottom: 2rem;
+}
+
+#Fibonacci{
+    width: fit-content;
+    font-family: JetBrains, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 2rem;
+    line-height: 1.5rem;
+    color: #e4b962;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px dashed white;
+}
+
+#Fibonacci p{
+    margin-left: 10rem;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width:fit-content;
+    max-width: 51rem;
+}
+
+#ProgramFlow{
+    line-height: 1.5rem;
+    min-width: 15rem;
+    padding-right: 5rem;
+    padding-left: 0.5rem;
+}
+
+#StackCounter{
+    line-height: 1.5rem;
+    color: #FF4EA7;
+    min-width: 12rem;
+    padding-right: 4rem;
+}
+
+#RecursiveTree{
+    color: #A682FF;
+    line-height: 1.5rem;
+    min-width: 15rem;
+}
+
+#ProgramFlow, #StackCounter, #RecursiveTree{
+    flex: 1;
+}

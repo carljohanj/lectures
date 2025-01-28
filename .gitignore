@@ -1,0 +1,14 @@
+# Exkludera konfigurationsmappen:
+.idea/
+
+# Exkludera filer i temporära mappar:
+out/
+output_tmp_files/*.txt
+output_tmp_files/*.csv
+output_tmp_files/*.html
+
+#Exkludera inte denna (i så fall raderas output_tmp_files-mappen och FibonacciStackCounter går inte att generera)
+!.include
+
+# Exkludera konfigurationsfiler i projektmappen:
+*.iml
