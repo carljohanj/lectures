@@ -11,14 +11,14 @@ public class ValueVsReference
 
         int[] array = {50, 2, 35, 4, 6, 1, 99, 45, 53, 97, 5, 8};
         System.out.println("Ordningen på arrayen innan den skickats som referens till passByReference(): ");
-        for (int j : array)
-            System.out.print(j + ", ");
+        for (int value : array)
+            System.out.print(value + ", ");
 
         passByReference(array);
 
         System.out.println("\nOrdningen på arrayen efter den skickats som referens till passByReference(): ");
-        for (int j : array)
-            System.out.print(j + ", ");
+        for (int value : array)
+            System.out.print(value + ", ");
     }
 
     //Metoden ändrar inte värdet på number i main() eftersom värdet (100) i number kopieras och skickas hit

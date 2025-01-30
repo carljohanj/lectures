@@ -18,9 +18,13 @@ public class BinarySearch
 
     public static int binarySearch(int[] array, int target, int beginning, int end)
     {
+        counter++;
+
+        //if (beginning > end) { return -1; }
+
         int middle = (beginning + end) / 2;
 
-        if (array[middle] == target) { return middle; }
+        if (target == array[middle]) { return middle; }
 
         if(target > array[middle])
         {

@@ -17,17 +17,24 @@ Sourcemappen innehåller:
 | Filnamn                            | Beskrivning                                                                                                                                                                                    |
 |------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **BinarySearch.java**              | Exempel på hur en binär sökning fungerar i Java.                                                                                                                                               |
+| **Box.java**                       | En väldigt simpel generisk klass.                                                                                                                                                              |
+| **DoubleNode.java**                | En rekursiv klass som kan användas för att skapa en dubbellänkad lista.                                                                                                                        |
 | **FibonacciIterative.java**        | Ett exempel på hur iteration kan användas för att få bort den exponentiella tidskomplexiteten som en rekursiv fibonacci innebär.                                                               |
 | **FibonacciRecursive.java**        | En rekursiv fibonaccialgoritm som anropar sig själv två gånger varje gång den körs.                                                                                                            |
 | **FibonacciRecursiveDynamic.java** | Ett rekursivt fibonaccialternativ som använder en dynamisk programmeringsteknik för att effektivisera algoritmen.                                                                              |
+| **FibonacciStackCounter.java**     | Ett program som genererar en webbsida som visar vad som pushas på och poppas från callstacken när en rekursiv fibonaccialgoritm anropas.                                                       |
+| **Node.java**                      | En klass som kan användas för att bygga en Länkad Lista. En Node innehåller en instans av sig själv och kan därför sägas vara en rekursiv datastruktur.                                        |
 | **SierpinskiTriangle.java**        | Ett program som ritar upp en liksidig triangel och för varje rekursivt anrop sedan delar in den i tre mindre trianglar. Använd +/- för att zooma och c för att slå på/av färg.                 |
+| **SimpleQueue.java**               | En version av en kö som använder en dubbellänkad lista som underliggande datatyp.                                                                                                              |
+| **Stack.java**                     | En implementation av en stack som är generisk för att man ska kunna lagra olika typer av data i den.                                                                                           |
+| **TreeNode.java**                  | En TreeNode är ungefär samma sak som en Node, men den innehåller **två** instanser av sig själv. Vi kan använda en trädnod för att bygga ett binärt sökträd.                                   |
 | **ValueVsReference.java**          | Ett kort exempel som illustrerar skillnaden mellan att skicka variabler som värde och att skicka dem som referenser (detta sköts automatiskt i Java men det är bra att förstå vad som händer). |
 
 # <a id="presentationer"></a>Föreläsningsslides
-| Filnamn                                          | Beskrivning                                                                                                                                       |
-|--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| Filnamn                                           | Beskrivning                                                                                                                                       |
+|---------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Föreläsning 1**](files/Forelasning_1_algo.pdf) | Presentationen från föreläsningstillfälle 29/1 där vi behandlade rekursiva algoritmer, callstacken, minne, referenser och dynamisk programmering. |
-| (Kommer)                                         | Presentationen från föreläsningstillfälle 30/1 där vi pratade om rekursiva datastrukturer, abstrakta datatyper, Generics, stackar och köer.       |
+| [**Föreläsning 2**](files/Forelasning_2_algo.pdf) | Presentationen från föreläsningstillfälle 30/1 där vi pratade om rekursiva datastrukturer, abstrakta datatyper, Generics, stackar och köer.       |
 
 # <a id="andra-filer"></a>Uppgifter och andra filer
 | Filnamn                                                                      | Beskrivning                                                                                                                                                                                                                  |
@@ -52,7 +59,6 @@ Sourcemappen innehåller:
 - **Abstrakta datatyper**: https://www.geeksforgeeks.org/abstract-data-types/
 - **The importance of Naive Solutions**: https://softwaredoug.com/blog/2022/11/14/importance-of-naive-solutions
 - **Boktips: Gödel, Escher, Bach.** https://sv.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach
-- **Bra ställe att dumpa länkar och anteckningar:** https://keep.google.com/
 
 ## <a id="videor"></a>Videoklipp
 - **The Secret Rules of Modern Living Algorithms** (58 min)<br>
@@ -61,8 +67,6 @@ Sourcemappen innehåller:
 [<img src="https://img.youtube.com/vi/zg-ddPbzcKM/hqdefault.jpg" alt="Stepping through recursive fibonacci" width="500"/>](https://www.youtube.com/watch?v=zg-ddPbzcKM)
 - **The magic of fibonacci numbers** (6 min)<br>
 [<img src="https://img.youtube.com/vi/SjSHVDfXHQ4/hqdefault.jpg" alt="The magic of fibonacci numbers" width="500"/>](https://www.youtube.com/watch?v=SjSHVDfXHQ4)
-- **Java Generics Explained** (13 min)<br>
-[<img src="https://img.youtube.com/vi/CN27X68YO4I/hqdefault.jpg" alt="Java Generics Explained" width="500"/>](https://www.youtube.com/watch?v=CN27X68YO4I)
 - **Fibonacci numbers and plants** (3 delar x 6 min - se alla)<br>
 [<img src="https://img.youtube.com/vi/ahXIMUkSXX0/hqdefault.jpg" alt="Doodling in math" width="500"/>](https://www.youtube.com/watch?v=ahXIMUkSXX0)
 - **David Brailsford om loopar och rekursion** (12 min)<br>
