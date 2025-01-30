@@ -13,4 +13,9 @@ public class Node<Type>
         this.data = data;
         this.node = null;
     }
+
+    public void setNextNode(Node<Type> node)
+    {
+        this.node = node;
+    }
 }
