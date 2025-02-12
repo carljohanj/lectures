@@ -39,7 +39,7 @@ Sourcemappen innehåller:
 |---------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Föreläsning 1**](files/Forelasning_1_algo.pdf) | Presentationen från föreläsningstillfälle 29/1 där vi behandlade rekursiva algoritmer, callstacken, minne, referenser och dynamisk programmering. |
 | [**Föreläsning 2**](files/Forelasning_2_algo.pdf) | Presentationen från föreläsningstillfälle 30/1 där vi pratade om rekursiva datastrukturer, abstrakta datatyper, Generics, stackar och köer.       |
-| [**(KOMMER))**](files/Forelasning_3_algo.pdf)     | Presentationen från föreläsningstillfälle 13/2 där vi pratade om binära sökträd, grafer och garbage collection.                  |
+| [**Föreläsning 3**](files/Forelasning_3_algo.pdf) | Presentationen från föreläsningstillfälle 13/2 där vi pratade om binära sökträd, grafer och garbage collection.                  |
 
 # <a id="andra-filer"></a>Uppgifter och andra filer
 | Filnamn                                                                      | Beskrivning                                                                                                                                                                                                                  |
