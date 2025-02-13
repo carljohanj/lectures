@@ -4,7 +4,7 @@ public class GreedyCoinChange
     public static void main(String[] args)
     {
         final int[] coinValues = {10, 5, 1};
-        int amount = 27;
+        int amount = 35;
         calculateChange(coinValues, amount);
     }
 
