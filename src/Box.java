@@ -1,3 +1,4 @@
+
 /**
  * Generisk klass som kan lagra alla sorters objekt
  * Vi har ersatt datatypen med en generisk typ "Type"
